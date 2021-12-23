@@ -12,7 +12,7 @@
 ## api列表
 
 ### 根据日期查询假期信息
-接口地址: `https://open-api.lmikoto.online/api/holiday/info/{data}`
+接口地址: `https://open-api.lmikoto.online/api/holiday/info/{data}`   
 @param {data}为查询的日期，非必填，如果不填代表当前日期
 
 ```json
@@ -30,5 +30,5 @@
 }
 ```
 #### 示例
-https://open-api.lmikoto.online/api/holiday/info/2022-1-1
-https://open-api.lmikoto.online/api/holiday/info
+https://open-api.lmikoto.online/api/holiday/info/2022-1-1  
+https://open-api.lmikoto.online/api/holiday/info  
