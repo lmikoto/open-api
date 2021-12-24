@@ -25,10 +25,31 @@
         "week": 6,
         "status": 3,
         "name": "元旦",
-        "rest": 9
+        "rest": 9 // 距离当前日期天数
     }
 }
 ```
 #### 示例
 https://open-api.lmikoto.online/api/holiday/info/2022-1-1  
 https://open-api.lmikoto.online/api/holiday/info  
+
+
+### 获取最近的一个假期信息
+接口地址: `https://open-api.lmikoto.online/api/holiday/next/holiday/info`   
+
+```json
+{
+    "code": 0,
+    "data": {
+        "year": 2022,
+        "month": 1,
+        "day": 1,
+        "week": 6,
+        "status": 3,
+        "name": "元旦",
+        "rest": 9 // 距离当前日期天数
+    }
+}
+```
+#### 示例
+https://open-api.lmikoto.online/api/holiday/next/holiday/info
