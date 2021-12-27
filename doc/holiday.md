@@ -15,7 +15,6 @@
 接口地址: `https://open-api.lmikoto.online/api/holiday/info/{date}`  
 
 #### 请求参数
-`date`: 为查询的日期，非必填，如果不填代表当前日期
 |  参数   | 含义  |
 |  ----  | ----  |
 | date  | 为查询的日期，非必填，如果不填代表当前日期  |
