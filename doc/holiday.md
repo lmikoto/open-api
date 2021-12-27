@@ -24,7 +24,12 @@
 | status  | 1: 工作日 2: 补班 3: 假期 4: 周末  |
 | rest  | 查询的日期距离今天有多少天  |
 | name  | 假期名称  |
- 
+
+#### 请求示例
+https://open-api.lmikoto.online/api/holiday/info/2022-1-1  
+https://open-api.lmikoto.online/api/holiday/info  
+
+#### 返回结果示例 
 ```json
 {
     "code": 0,
@@ -39,9 +44,6 @@
     }
 }
 ```
-#### 示例
-https://open-api.lmikoto.online/api/holiday/info/2022-1-1  
-https://open-api.lmikoto.online/api/holiday/info  
 
 
 ### 获取最近的一个假期信息
@@ -54,6 +56,10 @@ https://open-api.lmikoto.online/api/holiday/info
 | rest  | 查询的日期距离今天有多少天  |
 | name  | 假期名称  |
 
+#### 请求示例
+https://open-api.lmikoto.online/api/holiday/next/holiday/info
+
+#### 返回结果示例 
 ```json
 {
     "code": 0,
@@ -68,5 +74,3 @@ https://open-api.lmikoto.online/api/holiday/info
     }
 }
 ```
-#### 示例
-https://open-api.lmikoto.online/api/holiday/next/holiday/info
