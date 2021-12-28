@@ -11,7 +11,10 @@
 
 ## 帮服务器减轻一下负担
 如果此服务对你有用，并打算长期使用，你可以赞助个1块不嫌少，2块不嫌多，3块可以买包辣条，10块来者不拒。
-![支付宝付款码](/imgs/alipay.png)  ![微信付款码](/imgs/alipay.png)
+
+<center class="half">
+    <img src="/imgs/alipay.png" width="200"/> <img src="/imgs/wepay.png" width="200"/>
+</center>
 
 ## api列表
 - [节假日api](/doc/holiday.md)
