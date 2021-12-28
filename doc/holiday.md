@@ -12,7 +12,8 @@
 ## api列表
 
 ### 根据日期查询假期信息
-接口地址: `https://open-api.lmikoto.online/api/holiday/info/{date}`  
+接口地址: `https://open-api.lmikoto.online/api/holiday/info/{date}`
+请求方式: `GET`  
 
 #### 请求参数
 |  参数   | 含义  |
@@ -48,6 +49,7 @@ https://open-api.lmikoto.online/api/holiday/info
 
 ### 获取最近的一个假期信息
 接口地址: `https://open-api.lmikoto.online/api/holiday/next/holiday/info`   
+请求方式: `GET`  
 
 #### 返回参数
 |  参数   | 含义  |
