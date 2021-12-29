@@ -18,3 +18,4 @@
 
 ## api列表
 - [节假日api](/doc/holiday.md)
+- [二维码api](/doc/qrcode.md)
