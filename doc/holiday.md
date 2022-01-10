@@ -83,3 +83,89 @@ https://open-api.lmikoto.online/api/holiday/next/holiday/info
     }
 }
 ```
+
+### 获取最近的一年的假期信息
+接口地址: `https://open-api.lmikoto.online/api/holiday/next/year/holiday/info`   
+请求方式: `GET`  
+
+#### 返回参数
+|  参数   | 含义  |
+|  ----  | ----  |
+| status  | 1: 工作日 2: 补班 3: 假期 4: 周末  |
+| rest  | 查询的日期距离今天有多少天  |
+| name  | 假期名称  |
+
+#### 请求示例
+https://open-api.lmikoto.online/api/holiday/next/year/holiday/info
+
+#### 返回结果示例 
+```json
+{
+    "code": 0,
+    "data": [
+        {
+            "year": 2022,
+            "month": 2,
+            "day": 1,
+            "week": 2,
+            "status": 3,
+            "name": "春节",
+            "rest": 22
+        },
+        {
+            "year": 2022,
+            "month": 4,
+            "day": 5,
+            "week": 2,
+            "status": 3,
+            "name": "清明",
+            "rest": 85
+        },
+        {
+            "year": 2022,
+            "month": 5,
+            "day": 1,
+            "week": 7,
+            "status": 3,
+            "name": "劳动节",
+            "rest": 111
+        },
+        {
+            "year": 2022,
+            "month": 6,
+            "day": 3,
+            "week": 5,
+            "status": 3,
+            "name": "端午节",
+            "rest": 144
+        },
+        {
+            "year": 2022,
+            "month": 9,
+            "day": 10,
+            "week": 6,
+            "status": 3,
+            "name": "中秋节",
+            "rest": 243
+        },
+        {
+            "year": 2022,
+            "month": 10,
+            "day": 1,
+            "week": 6,
+            "status": 3,
+            "name": "国庆节",
+            "rest": 264
+        },
+        {
+            "year": 2023,
+            "month": 1,
+            "day": 1,
+            "week": 7,
+            "status": 4,
+            "name": "元旦",
+            "rest": 356
+        }
+    ]
+}
+```
